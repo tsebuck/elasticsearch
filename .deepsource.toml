@@ -1,5 +1,26 @@
 version = 1
 
+exclude_patterns = [
+  ".ci/**",
+  ".github/**",
+  ".idea/**",
+  "benchmarks/**",
+  "build-conventions/**",
+  "build-tools-internal/**",
+  "ccr-images/**",
+  "client/**",
+  "dev-tools/**",
+  "distribution/**",
+  "docs/**",
+  "gradle/**",
+  "libs/**",
+  "licenses/**",
+  "qa/**",
+  "rest-api-spec/**",
+  "test/**",
+  "x-pack/**"
+]
+
 [[analyzers]]
 name = "java"
 
